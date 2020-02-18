@@ -1,6 +1,11 @@
 .skillsCardComponent {
+    text-align: center;
     img {
+        transition: all 1s ease-in-out;
         border-radius: 100%;
-        max-width: 300px;
+        max-width: 280px;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }

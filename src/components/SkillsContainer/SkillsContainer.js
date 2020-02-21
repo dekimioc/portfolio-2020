@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Heading from '../Heading/Heading';
 // import './skillsData.json';
 import SkillsCard from '../SkillsCard/SkillsCard';
+import Wrapper from '../Wrapper/Wrapper';
 import axios from 'axios';
 
 import './SkillsContainer.scss';
@@ -32,16 +33,20 @@ class SkillsContainer extends Component {
                 key={el.key}
             />)
         return (
-            <div>
+            <Wrapper>
+            <div className="skills-wrapper">
                 <Heading 
                 mainHeading="What do I know?"
                 subheading="I'm skilled in this technologies"
+                color="white"
+                subColor="yellow"
                 />
                 <div className="skillsContainer">
                     {skillsCardElement}
                 </div>
                
             </div>
+            </Wrapper>
         )
         }
 }

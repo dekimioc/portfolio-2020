@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Header/Header';
+import Slider from './components/Slider/Slider';
 import SkillsContainer from './components/SkillsContainer/SkillsContainer';
-import ProjectCard from './components/ProjectCard/ProjectCard';
+import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       
      <Header />
      <div className="container">
+        <Slider />
+       <About />
         <SkillsContainer />
         <Portfolio />
      </div>

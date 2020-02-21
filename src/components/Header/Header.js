@@ -1,11 +1,15 @@
 import React from 'react';
+import logo from '../../assets/images/logo/DM.png';
+import './Header.scss';
+import Wrapper from '../Wrapper/Wrapper';
 
 const Header = () => {
     return(
-        <div>
+        <Wrapper>
+        <div className="header">
             <div className="left-side">
                 <a>
-                    <img  />
+                    <img className="logo" src={logo} alt="logo" />
                 </a>
             </div>
             <div className="right-side">
@@ -18,6 +22,7 @@ const Header = () => {
                 </ul>
             </div>
         </div>
+        </Wrapper>
     )
 };
 

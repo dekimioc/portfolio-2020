@@ -1,5 +1,9 @@
-.skillsContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1.5rem;
+.skills-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    .skillsContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+    }
 }

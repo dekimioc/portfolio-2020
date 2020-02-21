@@ -3,7 +3,7 @@ import './Wrapper.scss';
 
 const Wrapper = (props) => {
     return(
-        <div className={}>{props.children}</div>
+        <div className="wrapper">{props.children}</div>
     )
 }
 

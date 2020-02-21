@@ -1,15 +1,23 @@
 import  React from 'react';
-// import Html from '../../assets/images/skills/html.png'
+import "./ProjectCard.scss";
+import Button from '../Button/Button';
 
-const ProjectCard = ({imgSrc, heading, technologies}) => {
+
+const ProjectCard = ({imgSrc, heading, technologies, buttonText, buttonHref}) => {
     return(
     <div className="projectCardContainer">
         <div className="projectCardImgContainer">
         <img src={imgSrc} />
+        <Button href={buttonText} text={buttonText}/>
         </div>
+        <div className="bottomSectionContainer">
         <div className="projectCardTextContainer">
-            <h5>{heading}</h5>
+            <h3>{heading}</h3>
             <p>{technologies}</p>
+        </div>
+        <div className="buttonContainerProjectCard">
+        
+        </div>
         </div>
     </div>
     )

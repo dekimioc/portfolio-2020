@@ -1,11 +1,11 @@
 import React from 'react';
 import "./Heading.scss";
 
-const Heading = ({mainHeading, subheading}) => {
+const Heading = ({mainHeading, subheading, color, subColor}) => {
     return(
         <div className="headingContainer"> 
-            <h1>{mainHeading}</h1>
-            <p>{subheading}</p>
+            <h1 className={color}>{mainHeading}</h1>
+            <p className={subColor}>{subheading}</p>
         </div>
     )
 };

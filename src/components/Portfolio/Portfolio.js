@@ -9,8 +9,7 @@ import Wrapper from '../Wrapper/Wrapper'
 
 class Portfolio extends Component {
     render() {
-       console.log(projectsData)
-        const renderedData = projectsData.map(el => <ProjectCard 
+        const renderedData = projectsData.slice(0, 6).map(el => <ProjectCard 
             imgSrc={el.image} 
             heading={el.heading} 
             technologies={el.technologies}

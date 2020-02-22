@@ -5,7 +5,7 @@ import Button from '../Button/Button';
 
 const About = () => {
     return(
-        <Wrapper>
+        <Wrapper color="yellowBack">
             <Heading 
                 mainHeading="Do you know who I am?"
                 subheading="A couple of things about me"

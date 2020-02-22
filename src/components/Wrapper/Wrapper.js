@@ -1,9 +1,9 @@
 import React from 'react';
 import './Wrapper.scss';
 
-const Wrapper = (props) => {
+const Wrapper = ({color, ...props}) => {
     return(
-        <div className="wrapper">{props.children}</div>
+        <div className={color === "yellowBack" ? "yellowBack" : "blackBack"}>{props.children}</div>
     )
 }
 

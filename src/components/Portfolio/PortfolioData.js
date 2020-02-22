@@ -13,7 +13,7 @@ import surfer from '../../assets/images/projects/thumbnails/surfer-small.jpg';
 import thunder from '../../assets/images/projects/thumbnails/thunder-small.jpg';
 import monsterApp from '../../assets/images/projects/thumbnails/monsters-card-small.jpg';
 
-const projectsData = [
+let projectsData = [
     {
         image: burger,
         heading: "Burger Builder",
@@ -43,7 +43,43 @@ const projectsData = [
         image: monsterApp,
         heading: "Monsters",
         technologies: "JSX, CSS, React"
+    },
+    {
+        image: miniShop,
+        heading: "Mini Shop app",
+        technologies: "HTML, CSS, JavaScript"
+    },
+    {
+        image: miami,
+        heading: "Miami",
+        technologies: "HTML, CSS, JavaScript"
+    },
+    {
+        image: choreDoor,
+        heading: "Chore Door",
+        technologies: "HTML, CSS, JavaScript"
+    },
+    {
+        image: hexa,
+        heading: "Hexa",
+        technologies: "HTML, CSS"
+    },
+    {
+        image:  surfer,
+        heading: "Surfer",
+        technologies: "HTML, CSS"
+    },
+    {
+        image: photoTime,
+        heading: "Photo Time",
+        technologies: "HTML, CSS"
+    },
+    {
+        image: thunder,
+        heading: "Thunder Web site",
+        technologies: "HTML, CSS, JavaScript"
     }
+
 ];
 
 export default projectsData;

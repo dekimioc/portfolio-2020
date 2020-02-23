@@ -5,7 +5,7 @@ import choreDoor from '../../assets/images/projects/thumbnails/chore-door-small.
 import dices from '../../assets/images/projects/thumbnails/dice-small.jpg';
 import hexa from '../../assets/images/projects/thumbnails/hexa-small.jpg';
 import miniShop from '../../assets/images/projects/thumbnails/js-shop-small.jpg';
-// import monsterAttack from '../../assets/images/projects/thumbnails/monster-attack.jpg';
+// import monsterGame from '../../assets/images/projects/thumbnails/monster-attack.jpg';
 import photoTime from '../../assets/images/projects/thumbnails/photo-small.jpg';
 import reactEcommerce from '../../assets/images/projects/thumbnails/react-e-commerce-small.jpg';
 import stolarija from '../../assets/images/projects/thumbnails/stolarija-small.jpg';

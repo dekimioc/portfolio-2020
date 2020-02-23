@@ -3,14 +3,16 @@ import Wrapper from '../Wrapper/Wrapper';
 import Heading from '../Heading/Heading';
 import Button from '../Button/Button';
 
+import './About.scss';
+
 const About = () => {
     return(
         <Wrapper color="yellowBack">
             <Heading 
                 mainHeading="Do you know who I am?"
                 subheading="A couple of things about me"
-                color="white"
-                subColor="yellow"
+                color="black"
+                subColor="white"
             />
         <div className="aboutContainer">
             <div className="aboutLeftSection">

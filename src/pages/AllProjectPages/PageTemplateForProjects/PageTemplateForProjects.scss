@@ -1,0 +1,55 @@
+.laptopimageContainer {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -17vh;
+    z-index: 100;
+    img {
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+.imgTextContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 550px;
+        max-width: 550px;
+        height: auto;
+        object-fit: contain;
+    }
+    .headingContainer {
+        padding-top: 0;
+    }
+}
+.projectsButtons {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.descContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 3rem;
+    .headingContainer {
+        padding-bottom: 0rem;
+    }
+    h1 {
+        text-align: left;
+        padding-bottom: 1.5rem;
+    }
+    .listPageTemplate {
+        list-style: none;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+}

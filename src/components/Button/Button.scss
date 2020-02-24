@@ -14,6 +14,22 @@
         cursor: pointer;
     }
 } 
+.blackButton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    font-size: 20px;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+       
+        cursor: pointer;
+    }
+}
 
 .none {
     display: none;

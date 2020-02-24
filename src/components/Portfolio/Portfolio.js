@@ -25,7 +25,7 @@ class Portfolio extends Component {
                 
             </div>
             <div className="portfolioButtonContainer">
-                <Button text="See more projects"/>
+                <Button href="/projects" text="See more projects" buttonProps="button"/>
                 </div>
             </Wrapper>
         )

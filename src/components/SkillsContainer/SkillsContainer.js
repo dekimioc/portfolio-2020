@@ -34,7 +34,7 @@ class SkillsContainer extends Component {
             />)
         return (
             <Wrapper>
-            <div className="skills-wrapper">
+            <div className="skills-wrapper" id="skills" href="skills">
                 <Heading 
                 mainHeading="What do I know?"
                 subheading="I'm skilled in this technologies"

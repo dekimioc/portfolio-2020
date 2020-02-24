@@ -11,15 +11,14 @@ import "./AboutPage.scss";
 const AboutPage = () => {
     return(
         <Wrapper color="yellowBack">
-            <Header />
             <MainImage mainUrl={aboutMainImage} headingText="About Me"/>
             <div className="aboutPageContainer">
                 <div className="aboutPageImgContainer">
                     <img src={myImage} alt=""/>
-                    <p><strong>Date of birth:</strong></p>
-                    <p><strong>Address:</strong></p>
-                    <p><strong>Email:</strong></p>
-                    <p><strong>Phone number:</strong></p>
+                    <p><strong>Date of birth: </strong>27.06.1991</p>
+                    <p><strong>Address:</strong>Nove Medje 62dj, Batajnica</p>
+                    <p><strong>Email:</strong><a href="mailto:dekimioc@gmail.com">dekimioc@gmail.com</a></p>
+                    <p><strong>Phone number:</strong>+381 65 991 27 06</p>
                 </div>
                 <div>
                     <h2>Dejan Miocinovic</h2>

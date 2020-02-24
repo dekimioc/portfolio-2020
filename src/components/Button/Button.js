@@ -1,9 +1,10 @@
 import React from 'react';
 import './Button.scss';
+import { Link } from 'react-router-dom';
 
 const Button = ({href, text, buttonProps}) => {
     return(
-        <button className={buttonProps === "button" ? "button" : "none"} href={href}>{text}</button>
+        <Link to={href}><button className={buttonProps === "button" ? "button" : buttonProps === "blackButton" ? "blackButton" : "none"} >{text}</button></Link>
     )
 }
 

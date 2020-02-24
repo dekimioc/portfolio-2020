@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '../Wrapper/Wrapper';
 import Heading from '../Heading/Heading';
-import Button from '../Button/Button';
+import Button from '../Button/Button'; 
 
 import './About.scss';
 
@@ -22,7 +22,7 @@ const About = () => {
             <p>I am a Front-end Developer and I am specialized im HTML5, CSS3, JavaScript. Dedication and passion are main characteristics that describe me the best. This characteristic can also describe my willing to constantly improve my knowledge and skills. I build dinamic web apps in ReactJS framework.</p>
             </div>
         </div>
-        <Button text="More about me"/>
+        <Button href="/more-about-me" text="More about me" buttonProps="blackButton"/>
         </Wrapper>
     )
 }

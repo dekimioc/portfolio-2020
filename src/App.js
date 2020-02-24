@@ -1,31 +1,32 @@
 import React from 'react';
 import './App.css';
-
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
-import Slider from './components/Slider/Slider';
-import SkillsContainer from './components/SkillsContainer/SkillsContainer';
-import About from './components/About/About';
-import Portfolio from './components/Portfolio/Portfolio';
+import Homepage from './components/Homepage/Homepage';
+import Footer from './components/Footer/Footer';
 import AboutPage from './pages/AboutPage/AboutPage';
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import PageTemplateForProject from './pages/AllProjectPages/PageTemplateForProjects/PageTemplateForProjects';
 import BaksonProject from './pages/AllProjectPages/BaksonProject/BaksonProject';
-import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      {/* <PortfolioPage /> */}
-      {/* <BaksonProject /> */}
-     <Header />
-     <div className="container">
-        <Slider />
-        <SkillsContainer />
-       <About />
-       
-        <Portfolio />
-        <Footer />
-     </div>
-     
+      
+      <Router>
+      <Header /> 
+        <ScrollToTop>
+        <Switch>
+          <Route path='/' exact component={Homepage}/>
+          <Route path="/more-about-me" component={AboutPage} />
+          <Route path="/projects" exact component={PortfolioPage} />
+          <Route path="/projects:name" exact component={PageTemplateForProject} />
+          <Route path="/projects/bakson" exact component={BaksonProject} />
+      </Switch>
+      </ScrollToTop>
+      </Router>
+      <Footer />
     </div>
   );
 }

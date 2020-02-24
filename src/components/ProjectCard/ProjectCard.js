@@ -8,7 +8,7 @@ const ProjectCard = ({imgSrc, heading, technologies, buttonText, buttonHref}) =>
     <div className="projectCardContainer">
         <div className="projectCardImgContainer">
         <img src={imgSrc} />
-        <Button href={buttonText} text={buttonText}/>
+        <h2>Click to view</h2>
         </div>
         <div className="bottomSectionContainer">
         <div className="projectCardTextContainer">

@@ -1,7 +1,6 @@
 import React from 'react';
 import MainImage from '../../../components/MainImage/MainImage';
 import Wrapper from '../../../components/Wrapper/Wrapper';
-import Header from '../../../components/Header/Header';
 import Button from '../../../components/Button/Button';
 import Heading from '../../../components/Heading/Heading';
 
@@ -10,7 +9,6 @@ import './PageTemplateForProjects.scss';
 const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, siteName, projectScreenshot, projectScreenshot2, technologies, gitButton, siteButton, descriptionText, laptop}) => {
     return(
         <div>
-            <Header />
             <Wrapper color={backgroundFirst}> 
                 <MainImage mainUrl={image} headingText={siteName}/>
                 <div className="laptopimageContainer">

@@ -6,7 +6,7 @@ import Heading from '../../../components/Heading/Heading';
 
 import './PageTemplateForProjects.scss';
 
-const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, siteName, projectScreenshot, projectScreenshot2, technologies, gitButton, siteButton, descriptionText, laptop}) => {
+const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, siteName, projectScreenshot, projectScreenshot2, technologies, gitButton, siteButton, descriptionText, laptop, subheadingText}) => {
     return(
         <div>
             <Wrapper color={backgroundFirst}> 
@@ -16,7 +16,7 @@ const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, site
                 </div>
                 <Heading 
                         subColor="white" 
-                       subheading="I pull some data from the API and then added them to the components."
+                       subheading={subheadingText}
                     />
                 <div className="imgTextContainer">
                     <img src={projectScreenshot} />

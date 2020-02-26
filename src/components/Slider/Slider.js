@@ -6,7 +6,6 @@ import slide1 from '../../assets/images/slides/slide_1.jpg';
 import slide2 from '../../assets/images/slides/slide_2.jpg';
 import slide3 from '../../assets/images/slides/slide_3.jpg';
 
-import {Animated} from "react-animated-css";
 import './Slider.scss';
 
 
@@ -18,12 +17,11 @@ class Slider extends Component {
           className="owl-theme"  
           loop  
           nav  
+          autoplay={200}
           dots={false}
           margin={0} >  
            <div className="sliImgContainer" ><img  className="sliderImg" src= {slide1}/>
-           <Animated animateOnMount animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
             <h1 >Hello, I'm Dejan Miocinovic.<br/>I'm front-end developer.</h1>
-            </Animated>
            </div>  
            <div className="sliImgContainer"><img  className="sliderImg" src= {slide2}/>
            <h1>I write clean and reviewed code</h1></div>  

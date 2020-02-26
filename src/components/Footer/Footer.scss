@@ -1,6 +1,43 @@
+footer {
+    border-top: 2px solid #fece1a;
+    .blackBack {
+        h3 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        p {
+            color: #fff;
+            margin-bottom: .5rem;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: all .5s ease-in-out;
+            &:hover {
+                color: #fece1a;
+            }
+        }
 .footerContainer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 0;
     text-align: center;
+    .topContentFooter {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+        .footer-text-container {
+            text-align: right;
+        }
+    }
+}
+    }
+    .yellowBack {
+        .footerContainer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+            text-align: center;
+    }
+}
 }

@@ -5,7 +5,7 @@ import choreDoor from '../../assets/images/projects/thumbnails/chore-door-small.
 import dices from '../../assets/images/projects/thumbnails/dice-small.jpg';
 import hexa from '../../assets/images/projects/thumbnails/hexa-small.jpg';
 import miniShop from '../../assets/images/projects/thumbnails/js-shop-small.jpg';
-// import monsterGame from '../../assets/images/projects/thumbnails/monster-attack.jpg';
+import monsterGame from '../../assets/images/projects/thumbnails/monster-attack.jpg';
 import photoTime from '../../assets/images/projects/thumbnails/photo-small.jpg';
 import reactEcommerce from '../../assets/images/projects/thumbnails/react-e-commerce-small.jpg';
 import stolarija from '../../assets/images/projects/thumbnails/stolarija-small.jpg';
@@ -17,67 +17,86 @@ let projectsData = [
     {
         image: burger,
         heading: "Burger Builder",
-        technologies: "HTML, CSS, React, Redux"
+        technologies: "HTML, CSS, React, Redux",
+        path: 'burger'
     },
     {
         image: bakson,
         heading: "Bakson",
-        technologies: "JSX, SCSS, React, Redux"
+        technologies: "JSX, SCSS, React, Redux",
+        path: 'bakson'
     },
     {
         image: reactEcommerce,
         heading: "E-commerce",
-        technologies: "JSX, CSS, React"
+        technologies: "JSX, CSS, React",
+        path: "reactEcommerce"
     },
     {
         image: stolarija,
         heading: "Stolarija Batajnica",
-        technologies: "HTML, CSS, Java Script, Wordpress"
+        technologies: "HTML, CSS, jQuery, Wordpress",
+        path: "stolarija"
     },
     {
         image: dices,
         heading: "Dice game",
-        technologies: "HTML, CSS, Java Script"
+        technologies: "HTML, CSS, JavaScript",
+        path: 'dice'
     },
     {
         image: monsterApp,
         heading: "Monsters",
-        technologies: "JSX, CSS, React"
+        technologies: "JSX, CSS, React",
+        path: 'monsterApp'
     },
     {
         image: miniShop,
         heading: "Mini Shop app",
-        technologies: "HTML, CSS, JavaScript"
+        technologies: "HTML, CSS, JavaScript",
+        path: 'miniShop'
     },
     {
         image: miami,
         heading: "Miami",
-        technologies: "HTML, CSS, JavaScript"
+        technologies: "HTML, SCSS, jQuery",
+        path: 'miami'
     },
     {
         image: choreDoor,
         heading: "Chore Door",
-        technologies: "HTML, CSS, JavaScript"
+        technologies: "HTML, CSS, JavaScript",
+        path: 'choreDoor'
     },
     {
         image: hexa,
         heading: "Hexa",
-        technologies: "HTML, CSS"
+        technologies: "HTML, SCSS, jQuery",
+        path: 'hexa'
     },
     {
         image:  surfer,
         heading: "Surfer",
-        technologies: "HTML, CSS"
+        technologies: "HTML, CSS, React",
+        path: 'surfer'
     },
     {
         image: photoTime,
         heading: "Photo Time",
-        technologies: "HTML, CSS"
+        technologies: "HTML, SCSS, React",
+        path: 'photoTime'
     },
     {
         image: thunder,
         heading: "Thunder Web site",
-        technologies: "HTML, CSS, JavaScript"
+        technologies: "HTML, CSS, jQuery",
+        path: 'thunder'
+    },
+    {
+        image: monsterGame,
+        heading: "Monster Attack Game",
+        technologies: "HTML, CSS, JavaScript",
+        path: "monstergame"
     }
 
 ];

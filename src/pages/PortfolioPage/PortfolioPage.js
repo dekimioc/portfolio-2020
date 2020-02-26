@@ -11,7 +11,7 @@ import MainImage from '../../components/MainImage/MainImage';
 
 class PortfolioPage extends Component {
     render() {
-        const projects = projectsData.map(el => <Link to={`/projects/${el.heading.toLowerCase()}`}><ProjectCard  imgSrc={el.image} 
+        const projects = projectsData.map(el => <Link to={`/projects/${el.path.toLowerCase()}`}><ProjectCard  imgSrc={el.image} 
             heading={el.heading} 
             technologies={el.technologies}
             buttonText="See project"/></Link>)

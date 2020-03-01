@@ -18,7 +18,9 @@ const MonsterAppProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             gitButton="button"
+            gitLink="https://github.com/dekimioc/monsters-app"
             siteButton="button"
+            siteLink="https://dekimioc.github.io/monsters-app/"
             subheadingText="Sample Java Script App"
             descriptionText="App where I fetch data from JSON placeholder API with fetch method, save data in the state and then arranged them to the components. All components are reusable. One of the components is the search field where users can filter monsters by their names."
         />

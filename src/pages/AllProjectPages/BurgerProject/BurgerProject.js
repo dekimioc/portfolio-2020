@@ -18,6 +18,9 @@ const BurgerProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             siteButton="button"
+            gitButton="button"
+            gitLink="https://github.com/dekimioc/burger"
+            siteLink="https://dekimioc.github.io/burger"
             subheadingText="React app with Firebase"
             descriptionText="Burger Builder is one of the biggest app that I made. In this app, there are many features like authentication, firebase and much more. The library that is used on this project is Axios for working with requests, react-router for syncing UI with the URL, Redux for centralizing the state. Ingredients that user add are stored in firebase and you can see your order list only if you're signed in. The app is fully responsive and works on all devices."
         />

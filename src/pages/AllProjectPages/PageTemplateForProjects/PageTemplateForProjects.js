@@ -2,11 +2,13 @@ import React from 'react';
 import MainImage from '../../../components/MainImage/MainImage';
 import Wrapper from '../../../components/Wrapper/Wrapper';
 import Button from '../../../components/Button/Button';
+import ExternalButton from '../../../components/ExternalButton/ExternalButton';
 import Heading from '../../../components/Heading/Heading';
+import GoBack from '../../../components/BackButton/BackButton';
 
 import './PageTemplateForProjects.scss';
 
-const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, siteName, projectScreenshot, projectScreenshot2, technologies, gitButton, siteButton, descriptionText, laptop, subheadingText}) => {
+const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, siteName, projectScreenshot, projectScreenshot2, technologies, gitButton, siteButton, descriptionText, laptop, subheadingText, siteLink, gitLink}) => {
     return(
         <div>
             <Wrapper color={backgroundFirst}> 
@@ -23,8 +25,8 @@ const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, site
                     <img src={projectScreenshot2} />
                 </div>
                 <div className="projectsButtons">
-                        <Button buttonProps={gitButton} text="GitHub code"/>
-                        <Button buttonProps={siteButton} text="Visit site"/>
+                        <ExternalButton buttonProps={gitButton} text="GitHub code" href={gitLink}/>
+                        <ExternalButton buttonProps={siteButton} text="Visit site" href={siteLink}/>
                     </div>
             </Wrapper>
             <Wrapper color={backgroundSecond}>
@@ -46,7 +48,7 @@ const PageTemplateForProjects = ({backgroundFirst, backgroundSecond, image, site
                     <p>{descriptionText}</p>
                     </div>
                 </div>
-                <Button  />
+                <GoBack />
             </Wrapper>
         </div>
     )

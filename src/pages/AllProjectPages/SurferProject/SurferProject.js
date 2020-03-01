@@ -18,6 +18,9 @@ const SurferProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             siteButton="button"
+            siteLink="https://dekimioc.github.io/Surfer/"
+            gitButton="button"
+            gitLink="https://github.com/dekimioc/Surfer"
             subheadingText="Converted PSD to HTML"
             descriptionText="For this site, I used ReactJs in combination with HTML and CSS to convert this PSD into the site. All components are made to be reusable. The project is fully responsive and works on all devices, and this site is pixel perfect. The theme from this PSD is shop for the surfer's boards."
         />

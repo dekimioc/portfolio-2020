@@ -1,0 +1,21 @@
+.backButtonWrapper {
+    text-align: center;
+    padding-bottom: 2rem;
+.blackButton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    font-size: 20px;
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+       
+        cursor: pointer;
+    }
+}
+}

@@ -1,5 +1,10 @@
+@import '../../assets/css/breakpoints.scss';
+
 .portfolioPageContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 5rem 0;
+    padding: 5rem 10px;
+    @include medium {
+        grid-template-columns: 1fr;
+    }
 }

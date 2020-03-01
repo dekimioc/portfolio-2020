@@ -1,10 +1,21 @@
+@import '../../assets/css/breakpoints.scss';
+
 .skills-wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px 0;
     .skillsContainer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5rem;
         padding: 3rem 0;
+        @include lg {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include medium {
+            padding-left: 10px;
+            padding-right: 10px;
+            grid-template-columns: 1fr;
+        }
     }
 }

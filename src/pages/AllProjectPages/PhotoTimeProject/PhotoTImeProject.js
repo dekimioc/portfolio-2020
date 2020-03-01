@@ -18,6 +18,9 @@ const PhotoTimeProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             siteButton="button"
+            siteLink="https://dekimioc.github.io/Phototime/"
+            gitButton="button"
+            gitLink="https://github.com/dekimioc/Phototime"
             subheadingText="Converted PSD to HTML"
             descriptionText="This is one of my first projects where I convert PSD to HTML with ReactJS technology. I was using HTML(JSX), CSS combined with React to convert PSD file to Html. All components are made to be reusable. The project is fully responsive and works on all devices, and this site is pixel perfect. The theme of this PSD is an app for photography."
         />

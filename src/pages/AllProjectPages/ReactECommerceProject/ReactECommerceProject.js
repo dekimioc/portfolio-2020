@@ -18,6 +18,9 @@ const ReactECommerceProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             siteButton="button"
+            siteLink="https://dejan-react-e-commerce-live.herokuapp.com/"
+            gitButton="button"
+            gitLink="https://github.com/dekimioc/e-commerce-with-React"
             subheadingText="React app with integrated Stripe payment"
             descriptionText="E-commerce with ReactJS! I mostly like this application from all of my projects. In this app are initialized firebase, sign in with Google method and Stripe payment method. You don't need to bee signed in to buy products. In the header is cart icon which has dropdown and you can see you're cart items from every page on the site. From the checkout page, you can add or remove products from your cart and then you can pay with the Stripe! React router library is used to keep UI in sync with the URL. The app is fully responsive and works on all devices. The state is centralized with Redux."
         />

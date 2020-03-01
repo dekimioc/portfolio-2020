@@ -22,7 +22,9 @@ const About = () => {
             <p>I am a Front-end Developer and I am specialized in HTML5, CSS3, JavaScript, React, Redux. Dedication and passion are the main characteristics that describe me the best. This characteristic can also describe my willingness to constantly improve my knowledge and skills.</p>
             </div>
         </div>
+        <div className="moreButtonCont">
         <Button href="/more-about-me" text="More about me" buttonProps="blackButton"/>
+        </div>
         </Wrapper>
     )
 }

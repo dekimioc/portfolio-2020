@@ -3,8 +3,12 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding:3rem 0;
+    padding:3rem 10px;
     .aboutLeftSection {
         padding-right: 10%;
     }
+}
+.moreButtonCont {
+    text-align: center;
+    padding-bottom: 2rem;
 }

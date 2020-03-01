@@ -1,3 +1,5 @@
+@import '../../assets/css/breakpoints.scss';
+
 .sliImgContainer {
     &:before {
         content: "";
@@ -12,11 +14,13 @@
         z-index: 999;
         color: #fff;
         top: 35%;
-        left:0;
-        right: 0;
+        left: 7%;
         text-align: left;
         max-width: 1200px;
         margin: 0 auto;
+        @include sm {
+            left: 14%;
+        }
     }
 .sliderImg {
     height: 90vh;

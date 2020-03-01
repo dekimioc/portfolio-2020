@@ -5,6 +5,7 @@ import Header from '../../components/Header/Header';
 import MainImage from '../../components/MainImage/MainImage';
 import aboutMainImage from '../../assets/images/pages/aboutPage.jpg';
 import myImage from '../../assets/images/pages/myImage.jpg';
+import ExternalButton from '../../components/ExternalButton/ExternalButton';
 
 import "./AboutPage.scss";
 
@@ -41,6 +42,9 @@ const AboutPage = () => {
     <li>Webpack</li>
 </ul>
                 </div>
+            </div>
+            <div className="extButtonContainer">
+            <ExternalButton href="https://github.com/dekimioc" buttonProps="blackButton" text="GitHub profile"  />
             </div>
         </Wrapper>
         

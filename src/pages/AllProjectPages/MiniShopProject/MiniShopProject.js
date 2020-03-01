@@ -18,6 +18,9 @@ const MiniShopProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             siteButton="button"
+            gitButton="button"
+            gitLink="https://github.com/dekimioc/Mini-Shop-OOP"
+            siteLink="https://dekimioc.github.io/Mini-Shop-OOP/"
             subheadingText="Converted PSD to HTML"
             descriptionText="Presentation of the simple shop with pure js! This project is made with OOP in JavaScript. In this app only two products are available and cart components. You can add products to the cart and see how much you have to pay for these products. The game is fully responsive and works on all devices. "
         />

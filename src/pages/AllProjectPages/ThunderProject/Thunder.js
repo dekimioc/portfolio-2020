@@ -18,6 +18,9 @@ const ThunderProject = () => {
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
             siteButton="button"
+            gitButton="button"
+            siteLink="https://dekimioc.github.io/Thunder/"
+            gitLink="https://github.com/dekimioc/Thunder"
             subheadingText="Converted PSD to HTML"
             descriptionText="This is one of my first projects on which I've been working. I was using HTML, SCSS and a little bit of the  jQuery to convert PSD file to Html. For slider in the header, I used the Swiper library. The project is fully responsive and works on all devices, and this site is pixel perfect. The theme from this PSD is template for the Wordpress theme."
         />

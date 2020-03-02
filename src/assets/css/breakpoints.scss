@@ -3,7 +3,7 @@
 $screen-sm-max: 540px;
 
 // Small tablets (portrait view)
-$screen-md-min: 768px;
+$screen-md-max: 768px;
 
 // Tablets and small desktops
 $screen-lg-max: 1024px;
@@ -15,6 +15,8 @@ $screen-xxl-max: 1150px;
 
 $screen-medium: 700px;
 
+$screen-xs-max: 350px;
+
 // Small devices
 @mixin sm {
     @media (max-width: #{$screen-sm-max}) {
@@ -24,7 +26,7 @@ $screen-medium: 700px;
  
  // Medium devices
  @mixin md {
-    @media (max-width: #{$screen-md-min}) {
+    @media (max-width: #{$screen-md-max}) {
         @content;
     }
  }
@@ -51,6 +53,11 @@ $screen-medium: 700px;
 
  @mixin xxl {
     @media (max-width: #{$screen-xxl-max}) {
+        @content;
+    }
+ } 
+ @mixin xsml {
+    @media (max-width: #{$screen-xs-max}) {
         @content;
     }
  }

@@ -10,7 +10,8 @@ import { Link } from 'react-router-dom';
 
 class Portfolio extends Component {
     render() {
-        const renderedData = projectsData.slice(0, 6).map(el => <Link to={`/projects/${el.path.toLowerCase()}`}><ProjectCard 
+        const renderedData = projectsData.slice(0, 6).map(el => <Link key={el.heading} to={`/projects/${el.path.toLowerCase()}`}><ProjectCard 
+            key={el.heading}
             imgSrc={el.image} 
             heading={el.heading} 
             technologies={el.technologies}
@@ -26,7 +27,7 @@ class Portfolio extends Component {
                 
             </div>
             <div className="portfolioButtonContainer">
-                <Button href="/projects" text="See more projects" buttonProps="button"/>
+                <Button href="/projects" text="More projects" buttonProps="button"/>
                 </div>
             </Wrapper>
         )

@@ -1,9 +1,11 @@
+@import '../../assets/css/breakpoints.scss';
+
 .header {
     max-width: 1200px;
     display: grid;
     grid-template-columns: .5fr 1fr;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px;
     align-items: center;
     .left-side {
         .logo {
@@ -16,10 +18,62 @@
             list-style-type: none;
             display: flex;
             justify-content: flex-end;
+            @include  medium {
+                display: none;
+            }
             li {
                 color: #fff;
                 margin: 0 20px;
+                position: relative;
+                &:before {
+                    content: "";
+                    width: 0;
+                    height: 1px;
+                    background-color: #fece1a;
+                    position: absolute;
+                    bottom: 0;
+                    transition: all .3s linear;
+                }   
+                &:hover {
+                    &:before {
+                        width: 100%;
+                    }   
+                }
             }
         }
+        img {
+            display: none;
+            float: right;
+            cursor: pointer;
+            @include  medium {
+                display: block;
+            }
+        }
+        .small-menu {
+            position: fixed;
+            width: 200px;
+            max-width: 100%;
+            height: auto;
+            background-color: #fece1a;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 999;
+            overflow: hidden;
+            transition: all .3s ease-in-out;
+            ul {
+                    padding-top: 30%;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    li {
+                        font-size:2rem;
+                        padding: 1rem 0;
+                    }
+        }
     }
+    
+}
 }

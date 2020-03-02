@@ -1,14 +1,58 @@
+@import '../../assets/css/breakpoints.scss';
+
 .aboutPageContainer {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 3rem 0;
+    grid-gap: 1rem;
+    padding: 3rem 10px;
+    @include md {
+        grid-template-columns: 1fr;
+    }
     .aboutPageImgContainer {
         img {
         width: 450px;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        padding: 0 10px;
+        @include sm {
+            width: 300px;
+        }
+        @include xsml {
+            width: 250px;
+        }
     }
+    p {
+        padding: 5px 0 5px 10px;
+        a {
+            color: #000;
+            transition: all .6s ease-in-out;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    
+}
+.text-section {
+    padding: 0 10px;
+    p {
+        margin-top: 1rem;
+    }
+.lists-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1.5rem;
+    ul {
+        color: #ffff;
+        list-style: none;
+        li {
+            padding: 5px 0;
+        }
+}
+}
 }
 }
 

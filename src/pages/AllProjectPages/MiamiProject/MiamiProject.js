@@ -17,8 +17,6 @@ const MiamiProject = () => {
             projectScreenshot={screenshoot}
             projectScreenshot2={screenshoot2}
             technologies={usedTechnologies}
-            siteButton="button"
-            siteLink="https://dekimioc.github.io/miamiTemplate/"
             gitButton="button"
             gitLink="https://github.com/dekimioc/miamiTemplate"
             subheadingText="Converted PSD to HTML"

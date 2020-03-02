@@ -6,6 +6,7 @@ import Homepage from './components/Homepage/Homepage';
 import Footer from './components/Footer/Footer';
 import AboutPage from './pages/AboutPage/AboutPage';
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import BaksonProject from './pages/AllProjectPages/BaksonProject/BaksonProject';
 import StolarijaBatajnica from './pages/AllProjectPages/StolarijaProject/Stolarija';
@@ -33,6 +34,7 @@ function App() {
           <Route path='/' exact component={Homepage}/>
           <Route path="/more-about-me" component={AboutPage} />
           <Route path="/projects" exact component={PortfolioPage} />
+          <Route path="/contact" exact component={ContactPage} />
           <Route path="/projects/bakson" exact component={BaksonProject} />
           <Route path="/projects/stolarija" exact component={StolarijaBatajnica} />
           <Route path="/projects/dice" exact component={DiceProject} />

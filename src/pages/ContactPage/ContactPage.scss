@@ -1,0 +1,21 @@
+.contactContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    .heading-contact {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .contact-p {
+        padding: 10px 0;
+        a {
+        color: #000;
+        
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+}

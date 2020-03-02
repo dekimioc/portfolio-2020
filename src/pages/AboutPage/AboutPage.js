@@ -20,7 +20,7 @@ const AboutPage = () => {
                     <p><strong>Address: </strong>Nove Medje 62dj, Batajnica</p>
                     <p><strong>Email: </strong><a href="mailto:dekimioc@gmail.com">dekimioc@gmail.com</a></p>
                     <p><strong>Phone number: </strong><a href="tel:+381659912706">+381659912706</a></p>
-                    <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/dejan-miocinovic-747641171/">Dejan Miocinovic</a></p>
+                    <p><strong>Linkedin: </strong><a target="blank" href="https://www.linkedin.com/in/dejan-miocinovic-747641171/">Dejan Miocinovic</a></p>
                 </div>
                 <div className="text-section">
                     <h2>Dejan Miocinovic</h2>

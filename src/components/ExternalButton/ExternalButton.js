@@ -3,7 +3,7 @@ import './ExternalButton.scss';
 
 const ExternalButton = ({href, text, buttonProps}) => {
     return(
-        <a href={href}><button className={buttonProps === "button" ? "button" : buttonProps === "blackButton" ? "blackButton" : "none"} >{text}</button></a>
+        <a target="blank" href={href}><button className={buttonProps === "button" ? "button" : buttonProps === "blackButton" ? "blackButton" : "none"} >{text}</button></a>
     )
 }
 

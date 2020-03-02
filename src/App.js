@@ -31,7 +31,7 @@ function App() {
       <Header /> 
         <ScrollToTop>
         <Switch>
-          <Route path='/' exact component={Homepage}/>
+          <Route path='/portfolio-2020' exact component={Homepage}/>
           <Route path="/more-about-me" component={AboutPage} />
           <Route path="/projects" exact component={PortfolioPage} />
           <Route path="/contact" exact component={ContactPage} />

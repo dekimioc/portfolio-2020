@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Homepage from './components/Homepage/Homepage';
 import Footer from './components/Footer/Footer';
@@ -31,7 +31,8 @@ function App() {
       <Header /> 
         <ScrollToTop>
         <Switch>
-          <Route path='/portfolio-2020' exact component={Homepage}/>
+          <Route path='/' exact component={Homepage}/>
+         
           <Route path="/more-about-me" component={AboutPage} />
           <Route path="/projects" exact component={PortfolioPage} />
           <Route path="/contact" exact component={ContactPage} />
@@ -49,6 +50,7 @@ function App() {
           <Route path="/projects/choreDoor" exact component={ChoreDoorProject} />
           <Route path="/projects/monsterapp" exact component={MonsterAppProject} />
           <Route path="/projects/minishop" exact component={MiniShopProject} />
+          <Redirect to="/"/>
       </Switch>
       </ScrollToTop>
       </Router>

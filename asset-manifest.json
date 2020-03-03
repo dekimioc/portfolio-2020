@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio-2020/static/css/main.0e5e24e3.chunk.css",
-    "main.js": "/portfolio-2020/static/js/main.500b55ab.chunk.js",
-    "main.js.map": "/portfolio-2020/static/js/main.500b55ab.chunk.js.map",
+    "main.js": "/portfolio-2020/static/js/main.47746ffe.chunk.js",
+    "main.js.map": "/portfolio-2020/static/js/main.47746ffe.chunk.js.map",
     "runtime-main.js": "/portfolio-2020/static/js/runtime-main.d9909059.js",
     "runtime-main.js.map": "/portfolio-2020/static/js/runtime-main.d9909059.js.map",
     "static/css/2.e016cb85.chunk.css": "/portfolio-2020/static/css/2.e016cb85.chunk.css",
-    "static/js/2.fec71ff7.chunk.js": "/portfolio-2020/static/js/2.fec71ff7.chunk.js",
-    "static/js/2.fec71ff7.chunk.js.map": "/portfolio-2020/static/js/2.fec71ff7.chunk.js.map",
+    "static/js/2.3d2fe6d4.chunk.js": "/portfolio-2020/static/js/2.3d2fe6d4.chunk.js",
+    "static/js/2.3d2fe6d4.chunk.js.map": "/portfolio-2020/static/js/2.3d2fe6d4.chunk.js.map",
     "index.html": "/portfolio-2020/index.html",
-    "precache-manifest.b5e6b0777486a77604adc4f2d90667bd.js": "/portfolio-2020/precache-manifest.b5e6b0777486a77604adc4f2d90667bd.js",
+    "precache-manifest.6d523864591801f7def134f65763c2c4.js": "/portfolio-2020/precache-manifest.6d523864591801f7def134f65763c2c4.js",
     "service-worker.js": "/portfolio-2020/service-worker.js",
     "static/css/2.e016cb85.chunk.css.map": "/portfolio-2020/static/css/2.e016cb85.chunk.css.map",
     "static/css/main.0e5e24e3.chunk.css.map": "/portfolio-2020/static/css/main.0e5e24e3.chunk.css.map",
-    "static/js/2.fec71ff7.chunk.js.LICENSE.txt": "/portfolio-2020/static/js/2.fec71ff7.chunk.js.LICENSE.txt",
+    "static/js/2.3d2fe6d4.chunk.js.LICENSE.txt": "/portfolio-2020/static/js/2.3d2fe6d4.chunk.js.LICENSE.txt",
     "static/media/Bakson.png": "/portfolio-2020/static/media/Bakson.36ccfa02.png",
     "static/media/DM.png": "/portfolio-2020/static/media/DM.07dda4ea.png",
     "static/media/aboutPage.jpg": "/portfolio-2020/static/media/aboutPage.4717c6a0.jpg",
     "static/media/bakson-small.jpg": "/portfolio-2020/static/media/bakson-small.0920f6b0.jpg",
     "static/media/bakson.jpg": "/portfolio-2020/static/media/bakson.b8370cd3.jpg",
     "static/media/bakson2.jpg": "/portfolio-2020/static/media/bakson2.5361775e.jpg",
+    "static/media/bootstrap.png": "/portfolio-2020/static/media/bootstrap.5495408d.png",
     "static/media/burger-builder-small.jpg": "/portfolio-2020/static/media/burger-builder-small.2bbbd145.jpg",
     "static/media/burger.png": "/portfolio-2020/static/media/burger.23e5eed0.png",
     "static/media/burger1.jpg": "/portfolio-2020/static/media/burger1.ffcccb47.jpg",
@@ -76,13 +77,14 @@
     "static/media/thunder-small.jpg": "/portfolio-2020/static/media/thunder-small.b1f60811.jpg",
     "static/media/thunder.png": "/portfolio-2020/static/media/thunder.728d93d5.png",
     "static/media/thunder1.jpg": "/portfolio-2020/static/media/thunder1.8d96308e.jpg",
-    "static/media/thunder2.jpg": "/portfolio-2020/static/media/thunder2.d470f2de.jpg"
+    "static/media/thunder2.jpg": "/portfolio-2020/static/media/thunder2.d470f2de.jpg",
+    "static/media/wordpress.jpg": "/portfolio-2020/static/media/wordpress.186ce72c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d9909059.js",
     "static/css/2.e016cb85.chunk.css",
-    "static/js/2.fec71ff7.chunk.js",
+    "static/js/2.3d2fe6d4.chunk.js",
     "static/css/main.0e5e24e3.chunk.css",
-    "static/js/main.500b55ab.chunk.js"
+    "static/js/main.47746ffe.chunk.js"
   ]
 }

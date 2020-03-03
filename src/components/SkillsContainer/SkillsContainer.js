@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Heading from '../Heading/Heading';
-// import './skillsData.json';
+import skillsData from './SkillsData.js';
 import SkillsCard from '../SkillsCard/SkillsCard';
 import Wrapper from '../Wrapper/Wrapper';
 import axios from 'axios';
@@ -15,18 +15,18 @@ class SkillsContainer extends Component {
         }
     }
 
-    componentDidMount = () => {
-        axios.get('skillsData.json')
-        .then(response => {
-          this.setState({data: response.data})
-          console.log(this.state)
-        })
-        .catch(error => {
-          console.log(error);
-        })
-    }
+    // componentDidMount = () => {
+    //     axios.get('skillsData.json')
+    //     .then(response => {
+    //       this.setState({data: response.data})
+    //       console.log(this.state)
+    //     })
+    //     .catch(error => {
+    //       console.log(error);
+    //     })
+    // }
     render() {
-            const skillsCardElement = this.state.data.map(el => 
+            const skillsCardElement = skillsData.map(el => 
             <SkillsCard 
                 url={el.image} 
                 skillsHeading={el.name}

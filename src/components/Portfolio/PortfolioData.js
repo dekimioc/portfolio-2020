@@ -13,6 +13,7 @@ import surfer from '../../assets/images/projects/thumbnails/surfer-small.jpg';
 import thunder from '../../assets/images/projects/thumbnails/thunder-small.jpg';
 import monsterApp from '../../assets/images/projects/thumbnails/monsters-card-small.jpg';
 import kraft from '../../assets/images/projects/thumbnails/kraft-thumbnail.jpg';
+import githubsearch from '../../assets/images/projects/thumbnails/gitsearch-thumb.jpg';
 
 let projectsData = [
     {
@@ -20,6 +21,12 @@ let projectsData = [
         heading: "Kraft-Line Pivare",
         technologies: "HTML, CSS, jQuery, PHP, Wordpress",
         path: 'kraft-line'
+    },
+    {
+        image: githubsearch,
+        heading: "GitHub Search Users Project",
+        technologies: "JSX, SCSS, React, Redux",
+        path: 'githubsearch'
     },
     {
         image: burger,

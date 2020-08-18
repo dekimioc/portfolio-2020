@@ -23,6 +23,7 @@ import ChoreDoorProject from './pages/AllProjectPages/ChoreDoorProject/ChoreDoor
 import MonsterAppProject from './pages/AllProjectPages/MonsterAppProject/MonsterAppProject';
 import MiniShopProject from './pages/AllProjectPages/MiniShopProject/MiniShopProject';
 import KraftLine from './pages/AllProjectPages/KraftLine/KraftLine';
+import GitHubSearch from './pages/AllProjectPages/GitHubSearch/GitHubSearch';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/projects" exact component={PortfolioPage} />
             <Route path="/contact" exact component={ContactPage} />
             <Route path="/projects/kraft-line" exact component={KraftLine} />
+            <Route path="/projects/githubsearch" exact component={GitHubSearch} />
             <Route path="/projects/bakson" exact component={BaksonProject} />
             <Route path="/projects/stolarija" exact component={StolarijaBatajnica} />
             <Route path="/projects/dice" exact component={DiceProject} />

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c3261e62e2de8a4c700784683507698",
+    "revision": "7ea7bd77a2020e55e23a93ece9bd9ddf",
     "url": "/portfolio-2020/index.html"
   },
   {
-    "revision": "bd6e1cdf473fc3d55f16",
+    "revision": "33d291d0e4610401084a",
     "url": "/portfolio-2020/static/css/2.e016cb85.chunk.css"
   },
   {
-    "revision": "c6e6f90b49f4c1bc1e37",
-    "url": "/portfolio-2020/static/css/main.0e5e24e3.chunk.css"
+    "revision": "9e6a7dfe9dbd59158dad",
+    "url": "/portfolio-2020/static/css/main.2aa85e46.chunk.css"
   },
   {
-    "revision": "bd6e1cdf473fc3d55f16",
-    "url": "/portfolio-2020/static/js/2.3d2fe6d4.chunk.js"
+    "revision": "33d291d0e4610401084a",
+    "url": "/portfolio-2020/static/js/2.d6a2a7b5.chunk.js"
   },
   {
     "revision": "486c864dbeea4f82b0912c66e3826be4",
-    "url": "/portfolio-2020/static/js/2.3d2fe6d4.chunk.js.LICENSE.txt"
+    "url": "/portfolio-2020/static/js/2.d6a2a7b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6e6f90b49f4c1bc1e37",
-    "url": "/portfolio-2020/static/js/main.47746ffe.chunk.js"
+    "revision": "9e6a7dfe9dbd59158dad",
+    "url": "/portfolio-2020/static/js/main.19b7657c.chunk.js"
   },
   {
     "revision": "735fdea747ef26147412",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "07dda4eab223bdc3a1dbe82f91b7f3f6",
     "url": "/portfolio-2020/static/media/DM.07dda4ea.png"
+  },
+  {
+    "revision": "1b483287256d25917b9aa54464e1aaa6",
+    "url": "/portfolio-2020/static/media/KraftLine.1b483287.png"
   },
   {
     "revision": "4717c6a0e3fe9fd7c1980b4c36e3da3f",
@@ -112,6 +116,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-2020/static/media/ecommerce.124280b3.png"
   },
   {
+    "revision": "15de30324438632bb8ab1739bf968a95",
+    "url": "/portfolio-2020/static/media/git-laptop.15de3032.png"
+  },
+  {
+    "revision": "9806583e4a1f93bfea6e3f1ecc3e0af2",
+    "url": "/portfolio-2020/static/media/gitsearch-thumb.9806583e.jpg"
+  },
+  {
+    "revision": "97402c62906e0a3ddf9e4518d0c60c32",
+    "url": "/portfolio-2020/static/media/gitsearch1.97402c62.jpg"
+  },
+  {
+    "revision": "443b8f4d9d683262008e3496ce4cb1b3",
+    "url": "/portfolio-2020/static/media/gitsearch2.443b8f4d.jpg"
+  },
+  {
     "revision": "975b0b7697083c9c1ef9696dd97c42e7",
     "url": "/portfolio-2020/static/media/hexa-small.975b0b76.jpg"
   },
@@ -130,6 +150,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d645875bbc9ab06178081af6c9c3b88",
     "url": "/portfolio-2020/static/media/js-shop-small.6d645875.jpg"
+  },
+  {
+    "revision": "563187fbdb130627fc082e80d682469a",
+    "url": "/portfolio-2020/static/media/kraft-thumbnail.563187fb.jpg"
+  },
+  {
+    "revision": "188c62867418d37718c8f1477bd78c9d",
+    "url": "/portfolio-2020/static/media/kraftline1.188c6286.jpg"
+  },
+  {
+    "revision": "eabdab1237916b423f74c7ac63d2b53b",
+    "url": "/portfolio-2020/static/media/kraftline2.eabdab12.jpg"
   },
   {
     "revision": "f948db809526cc3d0f85e2b4e5082199",
@@ -190,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19bccb52cdb2c3b36e0cc6864cd819c5",
     "url": "/portfolio-2020/static/media/myImage.19bccb52.jpg"
+  },
+  {
+    "revision": "f57e6ce9bcb4ba5f77c4da24b052fe1f",
+    "url": "/portfolio-2020/static/media/myImage2.f57e6ce9.jpg"
   },
   {
     "revision": "b988065e3b9cae9014ce7afd9aea6fdc",

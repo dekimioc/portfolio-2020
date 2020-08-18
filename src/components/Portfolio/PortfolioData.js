@@ -12,8 +12,15 @@ import stolarija from '../../assets/images/projects/thumbnails/stolarija-small.j
 import surfer from '../../assets/images/projects/thumbnails/surfer-small.jpg';
 import thunder from '../../assets/images/projects/thumbnails/thunder-small.jpg';
 import monsterApp from '../../assets/images/projects/thumbnails/monsters-card-small.jpg';
+import kraft from '../../assets/images/projects/thumbnails/kraft-thumbnail.jpg';
 
 let projectsData = [
+    {
+        image: kraft,
+        heading: "Kraft-Line Pivare",
+        technologies: "HTML, CSS, jQuery, PHP, Wordpress",
+        path: 'kraft-line'
+    },
     {
         image: burger,
         heading: "Burger Builder",
@@ -75,7 +82,7 @@ let projectsData = [
         path: 'hexa'
     },
     {
-        image:  surfer,
+        image: surfer,
         heading: "Surfer",
         technologies: "HTML, CSS, React",
         path: 'surfer'

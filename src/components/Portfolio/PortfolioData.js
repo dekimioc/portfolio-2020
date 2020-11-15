@@ -14,6 +14,8 @@ import thunder from '../../assets/images/projects/thumbnails/thunder-small.jpg';
 import monsterApp from '../../assets/images/projects/thumbnails/monsters-card-small.jpg';
 import kraft from '../../assets/images/projects/thumbnails/kraft-thumbnail.jpg';
 import githubsearch from '../../assets/images/projects/thumbnails/gitsearch-thumb.jpg';
+import crudapp from '../../assets/images/projects/thumbnails/crudsmall.jpg';
+import pagination from '../../assets/images/projects/thumbnails/pagination.jpg';
 
 let projectsData = [
     {
@@ -29,6 +31,18 @@ let projectsData = [
         path: 'githubsearch'
     },
     {
+        image: pagination,
+        heading: "GitHub Users with pagination",
+        technologies: "JSX, SCSS, React",
+        path: 'git-pagination'
+    },
+    {
+        image: crudapp,
+        heading: "Blog CRUD App",
+        technologies: "JSX, SCSS, React",
+        path: 'crudapp'
+    },
+    {
         image: burger,
         heading: "Burger Builder",
         technologies: "HTML, CSS, React, Redux",
@@ -41,16 +55,16 @@ let projectsData = [
         path: 'bakson'
     },
     {
-        image: reactEcommerce,
-        heading: "E-commerce",
-        technologies: "JSX, CSS, React",
-        path: "reactEcommerce"
-    },
-    {
         image: stolarija,
         heading: "Stolarija Batajnica",
         technologies: "HTML, CSS, jQuery, Wordpress",
         path: "stolarija"
+    },
+    {
+        image: reactEcommerce,
+        heading: "E-commerce",
+        technologies: "JSX, CSS, React",
+        path: "reactEcommerce"
     },
     {
         image: dices,

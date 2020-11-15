@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, HashRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Homepage from './components/Homepage/Homepage';
 import Footer from './components/Footer/Footer';
@@ -24,6 +24,8 @@ import MonsterAppProject from './pages/AllProjectPages/MonsterAppProject/Monster
 import MiniShopProject from './pages/AllProjectPages/MiniShopProject/MiniShopProject';
 import KraftLine from './pages/AllProjectPages/KraftLine/KraftLine';
 import GitHubSearch from './pages/AllProjectPages/GitHubSearch/GitHubSearch';
+import CrudWithReact from './pages/AllProjectPages/CrudBlogApp/CrudBlog';
+import GitPagination from './pages/AllProjectPages/GitPagination/GitPagination';
 
 function App() {
   return (
@@ -54,7 +56,8 @@ function App() {
             <Route path="/projects/choreDoor" exact component={ChoreDoorProject} />
             <Route path="/projects/monsterapp" exact component={MonsterAppProject} />
             <Route path="/projects/minishop" exact component={MiniShopProject} />
-
+            <Route path="/projects/crudapp" exact component={CrudWithReact} />
+            <Route path="/projects/git-pagination" exact component={GitPagination} />
           </Switch>
         </ScrollToTop>
       </HashRouter>

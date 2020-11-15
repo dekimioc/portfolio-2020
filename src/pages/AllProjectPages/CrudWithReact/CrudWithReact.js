@@ -6,7 +6,7 @@ import screenshoot from '../../../assets/images/projects/big-images/bakson.jpg';
 import screenshoot2 from '../../../assets/images/projects/big-images/bakson2.jpg'
 import laptop from '../../../assets/images/projects/Laptop Images/Bakson.png';
 
-const BaksonProject = () => {
+const CrudWithReact = () => {
     const usedTechnologies = ['Html', 'SCSS', 'React', 'Redux']
     return (
         <PageTemplateForProjects
@@ -27,4 +27,4 @@ const BaksonProject = () => {
     )
 }
 
-export default BaksonProject;
+export default CrudWithReact;

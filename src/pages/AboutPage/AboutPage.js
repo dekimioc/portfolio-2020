@@ -1,7 +1,5 @@
 import React from 'react';
 import Wrapper from '../../components/Wrapper/Wrapper';
-import Heading from '../../components/Heading/Heading';
-import Header from '../../components/Header/Header';
 import MainImage from '../../components/MainImage/MainImage';
 import aboutMainImage from '../../assets/images/pages/aboutPage.jpg';
 import myImage from '../../assets/images/pages/myImage2.jpg';
